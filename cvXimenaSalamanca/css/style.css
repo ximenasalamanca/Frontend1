@@ -1,0 +1,14 @@
+/*Estilo*/
+body {font-family:"Calibri, Arial, Helvetica, sans-serif"
+    }
+Header{ background-color: #dddddd;
+    align-content: center;      
+}
+h1{text-align: center;}
+h2{ background-color: #BFBFBF;
+font-size: 18px;
+}
+footer{ color: #1F497D;
+font-size: 24px;
+text-align: center;
+}
