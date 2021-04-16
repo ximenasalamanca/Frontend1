@@ -7,7 +7,7 @@ _Encontraras la receta de un delicioso pie de limon_
 *[Receta Pie de Limon](https://ximenasalamanca.github.io/Frontend1/Receta/)
 
 <h2>CV Ximena Salamanca</h2>
-s
+
 _Encontraras mi Cv, donde podras conocer un poco mas de mi_ 
 
 *[CV Ximena Salamanca](https://ximenasalamanca.github.io/Frontend1/cvXimenaSalamanca/)
