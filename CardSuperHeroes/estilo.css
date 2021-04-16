@@ -1,0 +1,138 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    }
+   
+    nav {
+        position: sticky;
+        top: 0px;
+        z-index: 100;
+    }
+    
+    #plus_boton{
+        position: fixed;
+        right: 50px;
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+        color: #FFFFFF;
+        background-color: #00669F;
+        text-align: center;
+        border-radius: 50%;
+        padding-top: 10px;
+        z-index: 105;
+    }
+    
+    #descuento {
+        background-color: #1CD1B0;
+        height: 30px;
+    }
+    #descuento_text {
+        position: relative;
+        font-style: normal;
+        color: black;
+        top: 25%;
+        padding-left: 15px;
+        vertical-align: middle;
+    }
+    #super_heroes {
+        position: sticky;
+        top: 30px;
+        background-color: #00669F;
+        color: #FFFFFF;
+        height: 65px;
+        box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    }
+    h1 {
+        position: relative;
+        padding-left: 15px;
+        top: 25%;
+    }
+    
+    .heroes {
+        height: auto;
+        position: relative;
+        align-content: center;
+        padding-bottom: 15px;
+    }
+    .fas{
+        position: absolute;
+        width: 25px;
+        height: 20px;
+        top: 25px;
+        left: 25px;
+        color: red;
+    }
+    .background_hero{
+        position:relative;
+        display: flex;
+        color: #FFFFFF;
+        background-size: cover;
+        margin: 45px auto 0px auto;
+        height: 170px;
+        width: 293px;
+        border-top-left-radius: 28px;
+        border-top-right-radius: 28px;  
+    }
+    .picture_heroe {
+        position: relative;
+        display: block;
+        border-radius: 50%;
+        height: 126px;
+        width: 126px;
+        left: 83.5px;
+        top: 107px;
+        z-index: 99;
+    }
+    .text_heroe{
+        background-color: #f3f3f3;
+        display: block;
+        position:relative;
+        color: #FFFFFF;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 293px;
+        padding: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .name_heroe {
+        display: block;
+        color: black;
+        width: 100%;
+        text-align: center;
+        padding-top: 75px;
+    }
+    .descrip_heroe{
+        position: relative;
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-align: justify;
+    }
+    .boton{
+        background-color: #00669F;
+        position: relative;
+        display: block;
+        color: #FFFFFF;
+        margin: 15px auto 15px auto;
+        height: 30px;
+        width: 40%;
+        padding-top: 5px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    footer {
+        background-color: #00669F;
+        color: #FFFFFF;
+        height: 50px;
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 15px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    }
+    
