@@ -1,6 +1,6 @@
-<h1>Frontend1<7h1>
+<h1>Frontend1</h1>
 
-<h2>Pagina recetas<7h2>
+<h2>Pagina recetas</h2>
 
 _Encontraras la receta de un delicioso pie de limon_ 
 
