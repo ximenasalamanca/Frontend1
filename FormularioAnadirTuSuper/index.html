@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrega tu Superheroe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel='stylesheet' href="../FormularioAnadirTuSuper/css/style.css">
+
+</head>
+<body>
+    <div class="descuentos">20% de descuento en todos los productos</div>
+        <header>
+            <img src="../FormularioAnadirTuSuper/img/Logo.svg" ><h1>Nombre Tienda</h1>
+        </header>
+
+    <div class=menu>
+        <nav>
+          <a class=item href="./contacto.html">Contacto</a>
+          <a class=item href="./registro.html">Registrarme</a>
+          <a class=item href="./login.html">Ingresar</a>
+        </nav>
+      </div>
+
+    <main>
+        <div class="formulario">
+            <h3>¡Añadí tu super!</h3>
+            <p>Agregá tu personaje favorito completando las opciones</p>
+            <form action="./agregarsuper.html" method="POST">
+                <div class=columna>
+                    <label>* Nombre</label>
+                    <input class=campo type="text" name="Nombre" id="Nombre" required tabindex="1">
+                    <label>Fecha</label>
+                    <input class=campo type="date" name="Fecha" id="Fecha" required tabindex="3">
+                    <textarea name="descripcion" id="descripcion" placeholder="Descripción" required tabindex="5"></textarea>
+                </div>
+                <div class=columna>
+                    <label>* Especie</label>
+                    <select class="campo especie" name="Especie" value="Especie" placeholder="Especie" required tabindex="2">
+                        <option value="Especie">Especie</option>
+                        <option value="Dios">Dios</option>
+                        <option value="SemiDios">Semi Dios</option>
+                        <option value="Humano">Humano</option>
+                        <option value="Mutante">Mutante</option>
+                    </select>
+                    <label>Agregar Foto</label>
+                    <input class=foto type="file" name="Foto" id="Foto" accept=".jpg, .png, .gif" required tabindex="4">
+                    <div>
+                        <p class=poderes>Poderes</p>
+                            <label for="poderes1" class=alternativas><input type="checkbox" name="Poderes" Value="SuperFuerza" tabindex="6">Super Fuerza</label>
+                            <label for="poderes2" class=alternativas><input type="checkbox" name="Poderes" Value="Volar" tabindex="7">Volar</label>
+                            <label for="poderes3" class=alternativas><input type="checkbox" name="Poderes" Value="Inteligencia" tabindex="8">Inteligencia</label>
+                            <label for="poderes4"class=alternativas><input type="checkbox" name="Poderes" Value="LeerMentes" tabindex="9">Leer Mentes</label>
+                        <hr>
+                        <p class=TipoPersonaje>Tipo de Personaje</p>                        
+                            <label class=alternativas><input type="radio" name="TipoPersonaje" Value="Heroe" tabindex="10">Héroe/Heroina</label>
+                            <label class=alternativas><input type="radio" name="TipoPersonaje" Value="Villano" tabindex="11">Villano/Villana</label>
+                    </div>            
+                </div>
+            </form>
+                <a class=añadir href="./index.html">Añadir</a>
+        </div>
+    </main>
+    <footer>
+        Todos los derechos reservados a Ana Ximena Salamanca Sanchez
+    </footer>
+
+</body>
+</html>
+
