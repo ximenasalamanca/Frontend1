@@ -28,13 +28,13 @@ _Conoce más sobre Batman, Wonder Woman y Superman_
 
 - responsive en los dispositivos
 
-*[Añadir Tu Super](https://ximenasalamanca.github.io/Frontend1/responsive/)
+*[Responsive](https://ximenasalamanca.github.io/Frontend1/responsive/)
 
 <h2>Animación</h2>
 
 - Conoce más de la animación
 
-*[Añadir Tu Super](https://ximenasalamanca.github.io/Frontend1/animacion/)
+*[Animación](https://ximenasalamanca.github.io/Frontend1/animacion/)
 
 
 
