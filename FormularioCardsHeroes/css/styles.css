@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+ margin: 0px;
+ padding: 0px;
+box-sizing: border-box;
+}
+
+.descuentos {
+  width: 100vw;
+  height: 40px;
+  background-color: #1CD1B0;
+  z-index: 1;
+  font-size: 15px;
+  color: #000000;
+  padding: 0 15px;
+ 
+}
+
+header {
+  position: sticky;
+  width: 100vw;
+  height: 100px;
+  background: #00669F;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+  padding: 10px;
+}
+
+h1 {
+  position: absolute;
+  height: 34px;
+  padding-left: 100px;
+  left:0px;
+  top: 0px;
+  font-size: 40px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 30px 120px;
+
+}
+
+
+nav {
+  padding: 15px;
+  background-color: black;
+
+
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+ background-color: black;
+ 
+}
+
+.item{
+  color:#FFFFFF;
+  text-decoration: none;
+  font-size:25px;
+  padding: 20px 20px;
+}
+
+
+main{
+  padding-top: 20px;
+}
+
+section {
+  text-align: center;
+}
+
+.card {
+  max-width: 300px;
+  margin: 100px;
+  box-shadow: 0px 5px 2px #22222233;
+  display: inline-block;
+}
+
+.card-fondo {
+  height: 190px;
+  background-image: url("../img/bg-batman.jpg");
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  position: relative;
+}
+
+.card-fondoharley{
+  background-image: url("../img/bg_harley.png");
+  height: 190px;
+  background-image: url("../img/bg-batman.jpg");
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
+  position: relative;
+}
+
+.card-cora {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.card-info {
+  position: relative;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+.card-info img {
+  position: absolute;
+  top: -80px;
+  left: 60px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+h2 {
+  padding-top: 90px;
+}
+p {
+  text-align: left;
+  padding: 16px;
+}
+
+a {
+  background-color: #00669f;
+  padding: 15px 37px;
+  margin: 20px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #00669f;
+ 
+}
+footer p{
+  text-align: center;
+  color: #fff;
+}
+
+
+/*==========FORMULARIO=====================*/
+
+.main{
+  
+  text-align: center;
+}
+.formulario{
+  display:inline-block;
+  margin:10px;
+  width: 35%;
+ 
+}
+
+.formulario h2{
+  font-weight: 10px;
+  font-size: 40px;
+  text-align: start;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.formulario input{
+  border:1px solid black;
+  padding:5px 10px;
+  margin-top:15px;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;   
+}
+.formulario select{
+  border:1px solid black;
+  padding:5px 10px;
+  margin-top:15px;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.formulario .boton{
+  display:inline;
+  width: 30%;
+  border:none;
+  border-radius: 23px;
+}
+.formulario .gris{
+  background-color: var(--colorSombra);
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+  width: 47%;
+  padding:5px 10px;
+  margin:5% 1%;
+ 
+}
+.formulario .verde{
+  color:black;
+  background-color: var(--colorSecundario);
+  font-size: 18px;
+  font-weight: 500;
+  width: 47%;
+  padding:5px 10px;
+  margin:5% 1%;
+ 
+}
+.formulario .verde2{
+  color:black;
+  background-color: var(--colorSecundario);
+  font-size: 18px;
+  font-weight: 500;
+  width: 97%;
+  padding:5px 10px;
+  margin:5% 1%;  
+}
+.formulario .cambioformulario{
+  margin:10px 0px 10px 0px;
+  color: var(--colorPrincipal);
+}
+.formulario .cambioformulario a{
+  text-decoration: none;
+  color:black;
+}
+.formulario textarea{
+  border:1px solid black;
+  padding:5px 10px;
+  margin-top:15px;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;   
+}
+
+.boton{
+  border: none;
+  border-radius: 45px;
+  background-color: #1CB1B0;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 45px;
+  margin-top: 15px;
+  
+  font-weight: 700;
+  width: 100%;
+}
+form a {
+  text-align: center;
+  margin-top: 15px;
+  color: #000000;
+  text-decoration: none
+  
+}
+
+ .registrar{
+  text-align: center;
+  background-color: #1CD1B0;
+  margin: 5px 94px;
+ 
+}
+
