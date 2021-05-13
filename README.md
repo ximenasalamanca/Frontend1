@@ -24,6 +24,12 @@ _Conoce más sobre Batman, Wonder Woman y Superman_
 
 *[Añadir Tu Super](https://ximenasalamanca.github.io/Frontend1/AnadirTuSuper/)
 
+<h2>Formulario</h2>
+
+- Formulario 
+
+*[Formulario](https://ximenasalamanca.github.io/Frontend1/FormularioCardsHeroes/)
+
 <h2>Responsive</h2>
 
 - responsive en los dispositivos
